@@ -16,10 +16,24 @@ Baixe sempre pelo site oficial — **https://estacao-fiscal-rtc.pages.dev** — 
 | Windows 10/11 (64 bits) | `EstacaoFiscalRTC_x64-setup.exe` |
 | Linux (AppImage) | `EstacaoFiscalRTC_amd64.AppImage` |
 | Ubuntu/Debian | `EstacaoFiscalRTC_amd64.deb` |
-| macOS (Apple Silicon e Intel) | `EstacaoFiscalRTC_universal.dmg` |
+| macOS (Apple Silicon, M1 ou mais novo) | `EstacaoFiscalRTC_aarch64.dmg` |
 
-Cada release informa a versão do motor oficial da Receita Federal embutido e o respectivo hash
-SHA-256, também exibido no aplicativo em **Configurações**.
+Cada release traz o arquivo `SHA256SUMS.txt` para conferir a integridade dos instaladores. O hash
+SHA-256 do motor oficial da Receita Federal embutido também aparece no aplicativo, em **Configurações**.
+
+### Primeira instalação
+
+- **Windows:** se aparecer "O Windows protegeu o computador", clique em *Mais informações → Executar
+  assim mesmo*.
+- **macOS:** na primeira abertura, vá em *Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo
+  Assim*.
+
+## Atualizações
+
+O aplicativo procura versões novas sozinho e avisa no topo da tela. A instalação é feita com um
+clique em **Configurações → Atualizações**, e cada pacote é conferido por assinatura digital antes
+de ser instalado. Clientes, histórico e licença são preservados. Os arquivos `latest.json` e
+`*.app.tar.gz` das releases existem para esse mecanismo e não precisam ser baixados.
 
 ## Licença de uso
 
@@ -29,7 +43,8 @@ Depois disso funciona offline por até 7 dias seguidos, renovando sozinho quando
 ## Privacidade
 
 Planilhas, XMLs e cálculos dos clientes do escritório nunca saem do computador: o motor oficial
-roda localmente em `127.0.0.1`. A internet é usada apenas para validar a licença.
+roda localmente em `127.0.0.1`. A internet é usada apenas para validar a licença, buscar
+atualizações e, quando você pede, consultar dados cadastrais de um CNPJ na BrasilAPI.
 
 ---
 
