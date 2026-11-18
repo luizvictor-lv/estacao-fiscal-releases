@@ -9,7 +9,8 @@ O código-fonte do aplicativo não fica aqui.
 ## Download
 
 Baixe sempre pelo site oficial — **https://estacao-fiscal-rtc.pages.dev** — ou pela aba
-[Releases](../../releases/latest) deste repositório.
+[Releases](../../releases) deste repositório. Cada sistema é publicado assim que fica pronto, então
+uma versão nova pode chegar ao Windows ou ao Linux antes do macOS.
 
 | Sistema | Arquivo |
 | :--- | :--- |
@@ -32,8 +33,9 @@ SHA-256 do motor oficial da Receita Federal embutido também aparece no aplicati
 
 O aplicativo procura versões novas sozinho e avisa no topo da tela. A instalação é feita com um
 clique em **Configurações → Atualizações**, e cada pacote é conferido por assinatura digital antes
-de ser instalado. Clientes, histórico e licença são preservados. Os arquivos `latest.json` e
-`*.app.tar.gz` das releases existem para esse mecanismo e não precisam ser baixados.
+de ser instalado. Clientes, histórico e licença são preservados. A pasta `atualizacoes/` deste repositório
+indica a versão atual de cada sistema; ela e os arquivos `*.sig` e `*.app.tar.gz` das releases existem
+para esse mecanismo e não precisam ser baixados.
 
 ## Licença de uso
 
