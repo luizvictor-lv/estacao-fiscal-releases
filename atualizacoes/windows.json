@@ -1,22 +1,22 @@
 {
-  "version": "0.2.0",
-  "notes": "Primeira versão pública da Estação Fiscal RTC: simulador, comparativo Antes x Depois (regime regular e Simples Nacional), lote em planilha, auditoria de XMLs, relatórios PDF com a marca do escritório e atualização automática.",
-  "pub_date": "2026-11-19T01:15:54Z",
+  "version": "0.2.1",
+  "notes": "Estação Fiscal RTC 0.2.1\n\n- Correção: no Windows, os motores oficiais não iniciavam quando a instalação ficava em pasta com acento (\"Estação Fiscal RTC\") e o sistema usava a opção \"Beta: Unicode UTF-8\".\n- Quando um motor falha, o Painel mostra os detalhes do erro, abre a pasta de logs e permite enviar o diagnóstico ao suporte.\n- Novo: \"Melhor regime\" — compara Simples Nacional, Lucro Presumido e Lucro Real hoje e na reforma, com diagnóstico e relatório em PDF (Escritório Pro, VIP e Master).",
+  "pub_date": "2026-11-19T18:03:59Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVpJM2thQXRMM1RVOXdPb3NJbTgwekRzbERac3lVRnQyY1FnM3dmWjZBZmVxQk9HSDFvbWJmam5jWHNsLzltWTd5YUNLOXB5OWIydlFjZjdiSGgxSVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwOTQ0CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjhCbHpPTzhDVzlyK1JXRmc5U1ZwaERUdWl3VmlMUkR5eDl0aFBKWkZKVis0aVdsa01xVHY2OFplYWFVZllaU1dtYlNPcytZU3pYTVg1UXE0UUxBVUR3PT0K"
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVU4b1Q3VkFVeWRtUEluYWwwMzFqV1k0OXhHY3hLeS8yYldGejd3dVZzZ1dVVFBxNjYvdHR5eFZLcEJlQWxISVBzSVdCTWg4b2F5V2ljVE0yYjJjTmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExNDMxCWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xCko4Vm8yb2tyWHVHUjJ5TS93dzJIWGZuemE4TzVwa2tOWExVSTlEOXErb0kySHBFZjJ2dnlaSWplbTVkS045bHl3SEd3YTBzOW00dUZ6WnNLemd5UUNnPT0K"
     },
     "windows-x86_64-nsis": {
-      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVpJM2thQXRMM1RVOXdPb3NJbTgwekRzbERac3lVRnQyY1FnM3dmWjZBZmVxQk9HSDFvbWJmam5jWHNsLzltWTd5YUNLOXB5OWIydlFjZjdiSGgxSVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwOTQ0CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjhCbHpPTzhDVzlyK1JXRmc5U1ZwaERUdWl3VmlMUkR5eDl0aFBKWkZKVis0aVdsa01xVHY2OFplYWFVZllaU1dtYlNPcytZU3pYTVg1UXE0UUxBVUR3PT0K"
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVU4b1Q3VkFVeWRtUEluYWwwMzFqV1k0OXhHY3hLeS8yYldGejd3dVZzZ1dVVFBxNjYvdHR5eFZLcEJlQWxISVBzSVdCTWg4b2F5V2ljVE0yYjJjTmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExNDMxCWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xCko4Vm8yb2tyWHVHUjJ5TS93dzJIWGZuemE4TzVwa2tOWExVSTlEOXErb0kySHBFZjJ2dnlaSWplbTVkS045bHl3SEd3YTBzOW00dUZ6WnNLemd5UUNnPT0K"
     }
   },
   "downloads": {
     "windows": {
       "arquivo": "EstacaoFiscalRTC_x64-setup.exe",
-      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
-      "sha256": "dd5f75431e593bdbe02a67bbb059e5885f0a2ada955dbb31940ad01b266c273d"
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_x64-setup.exe",
+      "sha256": "c948f7dcca711349b8fd14213921460d65c6195671841d6fbcf6e79219530a37"
     }
   }
 }
