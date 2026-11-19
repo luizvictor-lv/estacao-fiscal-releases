@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "notes": "Primeira versão pública da Estação Fiscal RTC: simulador, comparativo Antes x Depois (regime regular e Simples Nacional), lote em planilha, auditoria de XMLs, relatórios PDF com a marca do escritório e atualização automática.",
+  "pub_date": "2026-11-19T01:08:13Z",
+  "platforms": {
+    "linux-x86_64": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVQ1djE1UEdNMFJTSWhsV1FiV1JuZVJlMEMwMHdTRFNLblE3M2pqSm9hWlhwOGd3TGpReWFjQko0Q0djNzZCNHJRMkdjZm80QzNFbC9iYVVwWm14RkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwNDg3CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjIuMAp2K3g0NTVDRWJxcXJwY1BpMURJOTh6OWlIbG1qdkk0L3dPY294OEI4T0JrdStiK0ZnQWVjamw4bm5kZktrSUlLM3VNQy8rSjE0TVZUR0wyK2oycm1BQT09Cg=="
+    },
+    "linux-x86_64-appimage": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVQ1djE1UEdNMFJTSWhsV1FiV1JuZVJlMEMwMHdTRFNLblE3M2pqSm9hWlhwOGd3TGpReWFjQko0Q0djNzZCNHJRMkdjZm80QzNFbC9iYVVwWm14RkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwNDg3CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjowLjIuMAp2K3g0NTVDRWJxcXJwY1BpMURJOTh6OWlIbG1qdkk0L3dPY294OEI4T0JrdStiK0ZnQWVjamw4bm5kZktrSUlLM3VNQy8rSjE0TVZUR0wyK2oycm1BQT09Cg=="
+    },
+    "linux-x86_64-deb": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_amd64.deb",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVlDNkFHVC9mNjJnUmR4TWEvd3h5SUZtWFE4dnhqTDhVREFZeitkNmVMcDBFNXZOTUVEYnEvZWF3Z2RxZlBwdlllcmJxMHg3QS91UVdObmRnZ2prZWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwNDg3CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfYW1kNjQuZGViCXZlcnNpb246MC4yLjAKWmdnMmlqSllsY2JtWXRNb2x3amdUbnlaUFFBckwyeG1JM2dJSGlpN2pHRE9EWVNmMHJZL2p3OWMxNFljMlRPd2ZkMUVVWmw5ODFISzNjeGNETzRjQXc9PQo="
+    }
+  },
+  "downloads": {
+    "linux": {
+      "arquivo": "EstacaoFiscalRTC_amd64.AppImage",
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_amd64.AppImage",
+      "sha256": "d98f46e75da9c4adc21b630647a7e0cfdfa048ebcc69703b07953420cbbc0ce3"
+    },
+    "linuxDeb": {
+      "arquivo": "EstacaoFiscalRTC_amd64.deb",
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_amd64.deb",
+      "sha256": "91a9f3d24a6f75589124f29f9a0386f297c8efbbcad6ec6b673ac044cb6694f4"
+    }
+  }
+}
