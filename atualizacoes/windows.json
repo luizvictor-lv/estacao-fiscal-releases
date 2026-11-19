@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "notes": "Primeira versão pública da Estação Fiscal RTC: simulador, comparativo Antes x Depois (regime regular e Simples Nacional), lote em planilha, auditoria de XMLs, relatórios PDF com a marca do escritório e atualização automática.",
+  "pub_date": "2026-11-19T01:15:54Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVpJM2thQXRMM1RVOXdPb3NJbTgwekRzbERac3lVRnQyY1FnM3dmWjZBZmVxQk9HSDFvbWJmam5jWHNsLzltWTd5YUNLOXB5OWIydlFjZjdiSGgxSVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwOTQ0CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjhCbHpPTzhDVzlyK1JXRmc5U1ZwaERUdWl3VmlMUkR5eDl0aFBKWkZKVis0aVdsa01xVHY2OFplYWFVZllaU1dtYlNPcytZU3pYTVg1UXE0UUxBVUR3PT0K"
+    },
+    "windows-x86_64-nsis": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YVpJM2thQXRMM1RVOXdPb3NJbTgwekRzbERac3lVRnQyY1FnM3dmWjZBZmVxQk9HSDFvbWJmam5jWHNsLzltWTd5YUNLOXB5OWIydlFjZjdiSGgxSVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDUwOTQ0CWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVENfMC4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4wCjhCbHpPTzhDVzlyK1JXRmc5U1ZwaERUdWl3VmlMUkR5eDl0aFBKWkZKVis0aVdsa01xVHY2OFplYWFVZllaU1dtYlNPcytZU3pYTVg1UXE0UUxBVUR3PT0K"
+    }
+  },
+  "downloads": {
+    "windows": {
+      "arquivo": "EstacaoFiscalRTC_x64-setup.exe",
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.0/EstacaoFiscalRTC_x64-setup.exe",
+      "sha256": "dd5f75431e593bdbe02a67bbb059e5885f0a2ada955dbb31940ad01b266c273d"
+    }
+  }
+}
