@@ -1,0 +1,22 @@
+{
+  "version": "0.2.1",
+  "notes": "Estação Fiscal RTC 0.2.1\n\n- Correção: no Windows, os motores oficiais não iniciavam quando a instalação ficava em pasta com acento (\"Estação Fiscal RTC\") e o sistema usava a opção \"Beta: Unicode UTF-8\".\n- Quando um motor falha, o Painel mostra os detalhes do erro, abre a pasta de logs e permite enviar o diagnóstico ao suporte.\n- Novo: \"Melhor regime\" — compara Simples Nacional, Lucro Presumido e Lucro Real hoje e na reforma, com diagnóstico e relatório em PDF (Escritório Pro, VIP e Master).",
+  "pub_date": "2026-11-19T18:17:07Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YWNIM1JMcGxDUEFnSDZBa0VjVUEwczZzanVQMVd0dXEzaUxHd3QzMmFQM3BxZ2w1c2RJZTB4UThONFNXNGRUQ3c5VTdyY0YzTHlFOVdsYnk1ZXI0VGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTEyMjIwCWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVEMuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xCnRoK3RKaUYwOTB5amZ6Nm5rT1lhTWZwckNlS2lzVUwyYSt1S1NYd2ZLdE9aeHVvYnNVZklya1UzM1I4Q1BjbTd0ay9kUGNlMzN0cHVIRFFpVVZXM0NnPT0K"
+    },
+    "darwin-aarch64-app": {
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYXczWXZkTkE3YWNIM1JMcGxDUEFnSDZBa0VjVUEwczZzanVQMVd0dXEzaUxHd3QzMmFQM3BxZ2w1c2RJZTB4UThONFNXNGRUQ3c5VTdyY0YzTHlFOVdsYnk1ZXI0VGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTEyMjIwCWZpbGU6RXN0YcOnw6NvIEZpc2NhbCBSVEMuYXBwLnRhci5negl2ZXJzaW9uOjAuMi4xCnRoK3RKaUYwOTB5amZ6Nm5rT1lhTWZwckNlS2lzVUwyYSt1S1NYd2ZLdE9aeHVvYnNVZklya1UzM1I4Q1BjbTd0ay9kUGNlMzN0cHVIRFFpVVZXM0NnPT0K"
+    }
+  },
+  "downloads": {
+    "macos": {
+      "arquivo": "EstacaoFiscalRTC_aarch64.dmg",
+      "url": "https://github.com/luizvictor-lv/estacao-fiscal-releases/releases/download/v0.2.1/EstacaoFiscalRTC_aarch64.dmg",
+      "sha256": "fc6ab6f3f20a392a6ed46a2c3a6aa5f9d76ec812fc05787f80dc5b242447ca1e"
+    }
+  }
+}
